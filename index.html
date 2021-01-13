@@ -5,68 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Selassi Zakaria</h1>
-        <blockquote>
-            Dans la vie on ne fait pas ce que l'on veut mais on est responsable de ce que l'on est.
-        </blockquote>
-        <img src="img/PhotoID.jpg" width="50px" height="50px">
-        <h2>Developer Junior at BeCode</h2>
-    </header>
+    <div id="container">
+        <header>
+            <h1>Selassi Zakaria</h1>
+            <blockquote>
+                Dans la vie on ne fait pas ce que l'on veut mais on est responsable de ce que l'on est.
+            </blockquote>
+            <img src="img/PhotoID.jpg" width="50px" height="50px">
+            <h2>Developer Junior at BeCode</h2>
+        </header>
 
-    <main>
-        <table>
-            <thead>
-                <th>Anniversaire</th>
-                <th>Sexe</th>
-                <th>Couleur préféré</th>
-                <th>Nourriture favorite</th>
-                <th>Ananas sur pizza</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>14/09/1997</td>
-                    <td>M</td>
-                    <td>Bleu</td>
-                    <td>PIDE</td>
-                    <td>
-                        <label class="btn btn-primary"> oui
-                        <input type="checkbox" name="" id="" autocomplete="off">
-                        </label>
-                        <label class="btn btn-primary"> non
-                        <input type="checkbox" name="" id="" autocomplete="off">
-                      </label>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>Hobbies</h3>
-        <ul>
-            <li>Coding
-                <ul>
-                    <li>HTML5/CSS3</li>
-                    <li>JS</li>
-                    <li>PHP</li>
-                    <li>...</li>
-                </ul>
-            </li>
-        </ul>
-        <h4>Vous pouvez compter sur moi :</h4>
-        <p>lorsque vous etes paniques ma bon humeur vous rendra positive.</p>
 
-        <h5>Funny story</h5>
-        <blockquote>Pas d'inspiration, j'écris cette phrase pour combler le vide.</blockquote>
-        <h6>Sous-histoir</h6>
-        <blockquote>Le néant.</blockquote>
-    </main>
+        <section class="divers">
+            <table>
+                <thead>
+                    <th>Anniversaire</th>
+                    <th>Sexe</th>
+                    <th>Couleur préféré</th>
+                    <th>Nourriture favorite</th>
+                    <th>Ananas sur pizza</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>14/09/1997</td>
+                        <td>M</td>
+                        <td>Bleu</td>
+                        <td>PIDE</td>
+                        <td>
+                            <label class="btn btn-primary"> oui
+                    <input type="checkbox" name="" id="" autocomplete="off">
+                    </label>
+                            <label class="btn btn-primary"> non
+                    <input type="checkbox" name="" id="" autocomplete="off">
+                  </label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <footer>
-        <a href="#">previous</a>
-        <p>|| Zakaria Selassi ||</p> <a href="#">next</a>
-    </footer>
+        <section class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Coding
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>JS</li>
+                        <li>PHP</li>
+                        <li>...</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="story">
+            <h4>Vous pouvez compter sur moi :</h4>
+            <p>lorsque vous etes paniques ma bon humeur vous rendra positive.</p>
+
+            <h5>Funny story</h5>
+            <blockquote>Pas d'inspiration, j'écris cette phrase pour combler le vide.</blockquote>
+            <h6>Sous-histoir</h6>
+            <blockquote>Le néant.</blockquote>
+        </section>
+
+        <footer>
+            <a href="#">previous</a>
+            <p>|| Zakaria Selassi ||</p> <a href="#">next</a>
+        </footer>
+
+    </div>
 
 </body>
 
